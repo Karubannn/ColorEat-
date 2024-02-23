@@ -14,8 +14,16 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     private Button ThirdColorBtn;
 
-    void Start() { }
-
-    // Update is called once per frame
-    void Update() { }
+    void Start()
+    {
+        FirstColorBtn.onClick.AddListener(
+            () => Coloriage.Instance.SelectColor(FirstColorBtn.GetComponent<Image>().color)
+        );
+        SecondColorBtn.onClick.AddListener(
+            () => Coloriage.Instance.SelectColor(SecondColorBtn.GetComponent<Image>().color)
+        );
+        ThirdColorBtn.onClick.AddListener(
+            () => Coloriage.Instance.SelectColor(ThirdColorBtn.GetComponent<Image>().color)
+        );
+    }
 }
