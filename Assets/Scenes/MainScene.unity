@@ -192,8 +192,8 @@ Canvas:
   m_GameObject: {fileID: 66367426}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_RenderMode: 1
+  m_Camera: {fileID: 499766543}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -204,7 +204,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 31
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_TargetDisplay: 0
 --- !u!224 &66367430
 RectTransform:
@@ -757,6 +757,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1583156724115005625, guid: 5b7d8eba8f37a2c4b86684f71eae7f62, type: 3}
       propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2031748982953364532, guid: 5b7d8eba8f37a2c4b86684f71eae7f62, type: 3}
+      propertyPath: ColorModule.enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2031748982953364532, guid: 5b7d8eba8f37a2c4b86684f71eae7f62, type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.atime0
+      value: 49151
+      objectReference: {fileID: 0}
+    - target: {fileID: 2031748982953364532, guid: 5b7d8eba8f37a2c4b86684f71eae7f62, type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.key1.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2031748982953364532, guid: 5b7d8eba8f37a2c4b86684f71eae7f62, type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.m_ColorSpace
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5105752432843168819, guid: 5b7d8eba8f37a2c4b86684f71eae7f62, type: 3}
